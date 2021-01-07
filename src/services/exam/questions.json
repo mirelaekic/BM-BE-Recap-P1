@@ -1,0 +1,375 @@
+[
+    {
+      "duration": 60,
+  
+      "text": "QUESTION ONE.",
+      "answers": [
+        {
+          "text": "fugiat",
+          "isCorrect": false
+        },
+        {
+          "text": "adipisicing",
+          "isCorrect": true
+        },
+        {
+          "text": "eiusmod",
+          "isCorrect": false
+        },
+        {
+          "text": "fugiat",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "duration": 180,
+  
+      "text": "QUESTION TWO",
+      "answers": [
+        {
+          "text": "in",
+          "isCorrect": false
+        },
+        {
+          "text": "consectetur",
+          "isCorrect": true
+        },
+        {
+          "text": "officia",
+          "isCorrect": false
+        },
+        {
+          "text": "excepteur",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "duration": 180,
+      "text": "QUESTION THREE",
+      "answers": [
+        {
+          "text": "excepteur",
+          "isCorrect": false
+        },
+        {
+          "text": "et",
+          "isCorrect": true
+        },
+        {
+          "text": "sunt",
+          "isCorrect": false
+        },
+        {
+          "text": "mollit",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "duration": 120,
+  
+      "text": "QUESTION FOUR.",
+      "img": "https://demo-res.cloudinary.com/image/upload/sample.jpg",
+      "answers": [
+        {
+          "text": "laborum",
+          "isCorrect": false
+        },
+        {
+          "text": "sit",
+          "isCorrect": true
+        },
+        {
+          "text": "fugiat",
+          "isCorrect": false
+        },
+        {
+          "text": "sit",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "duration": 60,
+  
+      "text": "QUESTION FIVE",
+      "answers": [
+        {
+          "text": "nostrud",
+          "isCorrect": false
+        },
+        {
+          "text": "aliquip",
+          "isCorrect": true
+        },
+        {
+          "text": "enim",
+          "isCorrect": false
+        },
+        {
+          "text": "cillum",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "duration": 180,
+  
+      "text": "QUESTION SIX",
+      "img": "https://demo-res.cloudinary.com/image/upload/sample.jpg",
+      "answers": [
+        {
+          "text": "eiusmod",
+          "isCorrect": false
+        },
+        {
+          "text": "pariatur",
+          "isCorrect": true
+        },
+        {
+          "text": "mollit",
+          "isCorrect": false
+        },
+        {
+          "text": "nisi",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "duration": 60,
+  
+      "text": "QUESTION SEVEN",
+      "img": "https://demo-res.cloudinary.com/image/upload/sample.jpg",
+      "answers": [
+        {
+          "text": "et",
+          "isCorrect": false
+        },
+        {
+          "text": "et",
+          "isCorrect": true
+        },
+        {
+          "text": "eu",
+          "isCorrect": false
+        },
+        {
+          "text": "nisi",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "duration": 180,
+  
+      "text": "QUESTION EIGHT",
+      "img": "https://demo-res.cloudinary.com/image/upload/sample.jpg",
+      "answers": [
+        {
+          "text": "eu",
+          "isCorrect": false
+        },
+        {
+          "text": "commodo",
+          "isCorrect": true
+        },
+        {
+          "text": "dolor",
+          "isCorrect": false
+        },
+        {
+          "text": "aliquip",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "duration": 60,
+  
+      "text": "QUESTION NINE",
+      "answers": [
+        {
+          "text": "proident",
+          "isCorrect": false
+        },
+        {
+          "text": "adipisicing",
+          "isCorrect": true
+        },
+        {
+          "text": "non",
+          "isCorrect": false
+        },
+        {
+          "text": "ex",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "duration": 120,
+  
+      "text": "QUESTION TEN",
+      "img": "https://demo-res.cloudinary.com/image/upload/sample.jpg",
+      "answers": [
+        {
+          "text": "non",
+          "isCorrect": false
+        },
+        {
+          "text": "do",
+          "isCorrect": true
+        },
+        {
+          "text": "tempor",
+          "isCorrect": false
+        },
+        {
+          "text": "incididunt",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "duration": 180,
+  
+      "text": "QUESTION ELEVEN",
+      "img": "https://demo-res.cloudinary.com/image/upload/sample.jpg",
+      "answers": [
+        {
+          "text": "ea",
+          "isCorrect": false
+        },
+        {
+          "text": "Lorem",
+          "isCorrect": true
+        },
+        {
+          "text": "adipisicing",
+          "isCorrect": false
+        },
+        {
+          "text": "proident",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "duration": 180,
+  
+      "text": "QUESTION TWELVE",
+      "answers": [
+        {
+          "text": "cupidatat",
+          "isCorrect": false
+        },
+        {
+          "text": "eiusmod",
+          "isCorrect": true
+        },
+        {
+          "text": "cillum",
+          "isCorrect": false
+        },
+        {
+          "text": "irure",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "duration": 60,
+  
+      "text": "QUESTION THIRTEEN",
+      "answers": [
+        {
+          "text": "sit",
+          "isCorrect": false
+        },
+        {
+          "text": "esse",
+          "isCorrect": true
+        },
+        {
+          "text": "enim",
+          "isCorrect": false
+        },
+        {
+          "text": "veniam",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "duration": 120,
+  
+      "text": "QUESTION FOURTEEN",
+      "img": "https://demo-res.cloudinary.com/image/upload/sample.jpg",
+      "answers": [
+        {
+          "text": "dolore",
+          "isCorrect": false
+        },
+        {
+          "text": "magna",
+          "isCorrect": true
+        },
+        {
+          "text": "sit",
+          "isCorrect": false
+        },
+        {
+          "text": "qui",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "duration": 60,
+  
+      "text": "QUESTION FIFTEEN",
+      "answers": [
+        {
+          "text": "aliqua",
+          "isCorrect": false
+        },
+        {
+          "text": "nisi",
+          "isCorrect": true
+        },
+        {
+          "text": "mollit",
+          "isCorrect": false
+        },
+        {
+          "text": "tempor",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "duration": 60,
+      "text": "QUESTION SIXTEEN",
+      "answers": [
+        {
+          "text": "nostrud",
+          "isCorrect": false
+        },
+        {
+          "text": "aliquip",
+          "isCorrect": true
+        },
+        {
+          "text": "enim",
+          "isCorrect": false
+        },
+        {
+          "text": "cillum",
+          "isCorrect": false
+        }
+      ]
+    }
+  ]
