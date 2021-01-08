@@ -59,8 +59,6 @@ examRouter.post("/exam/:id/answer", async (req, res, next) => {
       const selectedQuestion = exam.questions[indexOfQuestion];
       const selectedAnswer = req.body.answer;
       selectedQuestion.selectedAnswer = selectedAnswer;
-      const score = selectedQuestion.answers[selectedAnswer].isCorrect === true ? 20 : 0;
-      exam.totalScore += score;
       await writeResults(exam);
       res.status(201).send(exam);
     } else {
