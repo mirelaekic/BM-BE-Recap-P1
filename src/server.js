@@ -10,11 +10,11 @@ const {
 
 const server = express();
 
-const port = process.env.PORT || 3002
+const port = process.env.PORT || 3010
 
 server.use(cors())
 server.use(express.json())
-server.use("/exam", exam)
+server.use("/", exam)
 
 server.use(badRequestHandler)
 server.use(notFoundHandler)
