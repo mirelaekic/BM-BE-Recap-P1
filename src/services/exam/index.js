@@ -75,8 +75,8 @@ examRouter.post("/exam/:id/answer", async (req, res, next) => {
 examRouter.get("/exam/:ID", async (req, res, next) => {
   try {
     const exams = await getResults()
-    const examsFound = exams.filter(exams => exams._id === req.params.ID)
-    if (examsFound.length > 0) {
+    const examsFound = exams.find(exams => exams._id === req.params.ID)
+    if (examsFound) {
       res.send(examsFound)
     } else {
       const err = new Error()
