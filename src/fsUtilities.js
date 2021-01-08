@@ -4,6 +4,7 @@ const { join } = require("path");
 
 const examPath = join(__dirname, "./services/exam/exam.json");
 const questionsPath = join(__dirname, "./services/exam/questions.json");
+const resultsPath = join(__dirname, "./services/exam/results.json");
 
 const readDB = async filePath => {
   try {
@@ -27,4 +28,6 @@ module.exports = {
     writExam: async examData => writeDB(examPath, examData),
     getQuestion: async () => readDB(questionsPath),
     writeQuestion: async questionsData => writeDB(questionsPath, questionsData),
+    getResults: async () => readDB(resultsPath),
+    writeResults: async resultsData => writeDB(resultsPath, resultsData),
   };

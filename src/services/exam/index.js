@@ -4,7 +4,8 @@ const {
   getExam,
   writExam,
   getQuestion,
-  writeQuestion,
+  writeResults,
+  getResults,
 } = require("../../fsUtilities");
 const uniqid = require("uniqid");
 
@@ -26,14 +27,12 @@ examRouter.post(
         const exam = await getExam();
         const questions = await getQuestion();
         const randomQuestions = questions.sort(() => Math.random() - 0.5);
-        const fiveQuestions = randomQuestions.slice(1, 6);
+        const fiveQuestions = randomQuestions.slice(1, 4);
         const newExam = {
           ...req.body,
           examDate: new Date(),
           isCompleted: false,
           name: "Admission Test",
-          selectedAnswer: null,
-          selectedQuestion:null,
           TotalDuration: 0,
           _id: uniqid(),
           questions: fiveQuestions,
@@ -60,10 +59,9 @@ examRouter.post("/exam/:id/answer", async (req, res, next) => {
       const selectedQuestion = exam.questions[indexOfQuestion];
       const selectedAnswer = req.body.answer;
       selectedQuestion.selectedAnswer = selectedAnswer;
-      const score =
-        selectedQuestion.answers[selectedAnswer].isCorrect === true ? 20 : 0;
+      const score = selectedQuestion.answers[selectedAnswer].isCorrect === true ? 20 : 0;
       exam.totalScore += score;
-      await writExam(exam);
+      await writeResults(exam);
       res.status(201).send(exam);
     } else {
       const err = new Error();
@@ -75,4 +73,20 @@ examRouter.post("/exam/:id/answer", async (req, res, next) => {
     next(error);
   }
 });
+
+examRouter.get("/exam/:ID", async (req, res, next) => {
+  try {
+    const exams = await getResults()
+    const examsFound = exams.filter(exams => exams._id === req.params.ID)
+    if (examsFound.length > 0) {
+      res.send(examsFound)
+    } else {
+      const err = new Error()
+      err.httpStatusCode = 404
+      next(err)
+    }
+  } catch (error) {
+    next(error)
+  }
+})
 module.exports = examRouter;
